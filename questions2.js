@@ -32,7 +32,7 @@ const questions = [
   {
     "question": "35. An engine speed exceeding which value is marked by a RED line (maximum limit)?",
     "options": ["a) 1000 RPM", "b) 2700 RPM", "c) 3000 RPM", "d) 500 RPM"],
-    "correct": 2
+    "correct": 1
   },
   {
     "question": "36. What is the specified operating range for Exhaust Gas Temperature (EGT)?",
@@ -52,7 +52,7 @@ const questions = [
   {
     "question": "39. Which Oil Pressure ranges are indicated by a YELLOW arc (caution range)?",
     "options": ["a) 0-30 PSI", "b) 10-30 PSI or 60-100 PSI", "c) 30-60 PSI", "d) <10 PSI or >100 PSI"],
-    "correct": 3
+    "correct": 1
   },
   {
     "question": "40. Oil Pressure readings falling below 10 PSI or exceeding 100 PSI are marked by:",
@@ -127,16 +127,17 @@ const questions = [
   {
     "question": "54. At what fuel imbalance level does the caution threshold begin (orange arc)?",
     "options": ["a) Greater than 8 USG (30.3 L)", "b) Greater than 12 USG (45.4 L)", "c) Greater than 14 USG (53.0 L)", "d) Greater than 10 USG (37.9 L)"],
-    "correct": 1
+    "correct": 3
   },
   {
     "question": "55. At what fuel imbalance level does the warning threshold begin (red arc)?",
     "options": ["a) Greater than 14 USG (53.0 L)", "b) Greater than 12 USG (45.4 L)", "c) Greater than 10 USG (37.9 L)", "d) Greater than 8 USG (30.3 L)"],
-    "correct": 0
+    "correct": 1
   },
   {
     "question": "56. What is the normal range for fuel flow in US gallons per hour (green arc)?",
     "options": ["a) 0-20 USG/h", "b) 0-25 USG/h", "c) 0-30 USG/h", "d) 0-35 USG/h"],
     "correct": 1
   }
+
 ];
